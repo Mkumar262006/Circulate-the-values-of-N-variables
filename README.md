@@ -19,7 +19,16 @@ Using conacatenation operation display the entie rotated list
 ### Step 6: 
 Stop the program
 ## Program:
-
+```
+#Program to circulate N values.
+#Developed by: MANOJ KUMAR S
+#RegisterNumber: 23002959
+def circulate():
+    list1=eval(input())
+    n=int(input())
+    result=list1[n:]+list1[:n]
+    print("After circulating the values are:",result)
+```
 
 ## Output:
 ![Output](/circulate.png)
